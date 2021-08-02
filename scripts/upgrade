@@ -53,8 +53,8 @@ upgrade_type=$(ynh_check_app_version_changed)
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
 
-if [ -z "$admin" ] then
-	admin="default_value";
+if [ -z "$admin" ]; then
+	admin="default_value"
 	ynh_app_setting_set --app=$app --key=admin --value=$admin
 fi
 
