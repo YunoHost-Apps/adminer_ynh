@@ -52,6 +52,11 @@ upgrade_type=$(ynh_check_app_version_changed)
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
 
+# If the admin is not defined, We can't upgrade this app
+if [ -z "$admin" ]; then
+	ynh_die --message="You are upgrading Adminer from a version where the admin is not defined. please reinstall the Adminer"
+fi
+
 # Cleaning legacy permissions
 if ynh_legacy_permissions_exists; then
 	ynh_legacy_permissions_delete_all
