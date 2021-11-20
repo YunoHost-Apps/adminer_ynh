@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Database management in a single PHP file
 
-**Shipped version:** 4.8.1~ynh1
+**Shipped version:** 4.8.1~ynh2
 
 **Demo:** https://demo.adminer.org/adminer.php?username=
 
