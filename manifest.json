@@ -7,7 +7,7 @@
         "fr": "Gestionnaire de base de données en un seul fichier PHP"
     },
 
-    "version": "4.8.1~ynh1",
+    "version": "4.8.1~ynh2",
     "url": "https://www.adminer.org/",
     "upstream": {
         "license": "Apache-2.0",
