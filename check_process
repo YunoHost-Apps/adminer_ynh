@@ -2,6 +2,7 @@
 	; Manifest
 		domain="domain.tld"
 		path="/path"
+		admin="john"
 		root_access=0
         is_public=1
 	; Checks
@@ -12,6 +13,8 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
+		#4.8.1
+		upgrade=1	from_commit=ca1c1238a8d8f1dc89c092216491d3ec9464382c
 		backup_restore=1
 		multi_instance=1
 		change_url=1
@@ -19,6 +22,6 @@
 Email= anmol@datamol.org
 Notification=change
 ;;; Upgrade options
-	; commit=CommitHash
-		name=Name and date of the commit.
+	; commit=ca1c1238a8d8f1dc89c092216491d3ec9464382c
+		name=4.8.1
 		manifest_arg=domain=DOMAIN&path=PATH&is_public=1&

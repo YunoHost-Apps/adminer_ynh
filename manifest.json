@@ -7,7 +7,7 @@
         "fr": "Gestionnaire de base de données en un seul fichier PHP"
     },
 
-    "version": "4.8.1~ynh1",
+    "version": "4.8.1~ynh2",
     "url": "https://www.adminer.org/",
     "upstream": {
         "license": "Apache-2.0",
@@ -27,7 +27,7 @@
        "url": "https://github.com/jesuisfol/adminer_ynh"
         },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [
@@ -38,8 +38,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "path",
@@ -48,18 +47,8 @@
                 "default": "/adminer"
             },
             {
-                "name": "root_access",
-                "type": "boolean",
-                "ask": {
-                    "en": "Allow root access(For security its disabled by default)?",
-                    "fr": "Autoriser l'accès racine (pour la sécurité désactivée par défaut)?"
-                },
-                "default": false
-            },
-           {
-                "name": "is_public",
-                "type": "boolean",
-                "default": true
+                "name": "admin",
+                "type": "user"
             }
         ]
     }

@@ -19,8 +19,8 @@ app=$YNH_APP_INSTANCE_NAME
 domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-root_access=$(ynh_app_setting_get --app=$app --key=root_access)
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
+admin=$(ynh_app_setting_get --app=$app --key=admin)
 
 #=================================================
 # CHECK VERSION
@@ -31,7 +31,7 @@ upgrade_type=$(ynh_check_app_version_changed)
 #=================================================
 # BACKUP BEFORE UPGRADE THEN ACTIVE TRAP
 #=================================================
-ynh_script_progression --message="Backing up Adminer before upgrading (may take a while)..." --weight=3
+ynh_script_progression --message="Backing up the app before upgrading (may take a while)..." --weight=3
 
 # Backup the current version of the app
 ynh_backup_before_upgrade
@@ -47,10 +47,9 @@ ynh_abort_if_errors
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
 
-# If final_path doesn't exist, create it
-if [ -z "$final_path" ]; then
-	final_path=/var/www/$app
-	ynh_app_setting_set --app=$app --key=final_path --value=$final_path
+# If the admin is not defined, We can't upgrade this app
+if [ -z "$admin" ]; then
+	ynh_die --message="You are upgrading Adminer from a version where the admin is not defined. Please reinstall Adminer"
 fi
 
 # Cleaning legacy permissions
@@ -79,19 +78,13 @@ then
 
 	mkdir -p $final_path
 
-	if [[ $root_access -eq 1 ]]; then
 	#copy files from with_root_access folder to the final_path
-		cp -a ../sources/with_root_access/. $final_path
-		else
-		#copy files from root_access_disabled folder to the final_path
-		cp -a ../sources/root_access_disabled/. $final_path
-	fi
+	cp -a ../sources/with_root_access/. $final_path
 fi
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
-chmod 755 $final_path/adminer.php
 
 #=================================================
 # NGINX CONFIGURATION
@@ -102,12 +95,19 @@ ynh_script_progression --message="Upgrading NGINX web server configuration..." -
 ynh_add_nginx_config
 
 #=================================================
+# UPGRADE DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Upgrading dependencies..." --weight=1
+
+ynh_install_app_dependencies $pkg_dependencies
+
+#=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 
 # Create a dedicated php-fpm config
-ynh_add_fpm_config --package="$extra_php_dependencies"
+ynh_add_fpm_config
 
 #=================================================
 # RELOAD NGINX
@@ -120,4 +120,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of Adminer completed" --last
+ynh_script_progression --message="Upgrade of $app completed" --last

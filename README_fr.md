@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Gestionnaire de base de données en un seul fichier PHP
 
-**Version incluse :** 4.8.1~ynh1
+**Version incluse :** 4.8.1~ynh2
 
 **Démo :** https://demo.adminer.org/adminer.php?username=
 
