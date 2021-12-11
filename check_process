@@ -14,7 +14,7 @@
 		setup_public=1
 		upgrade=1
 		#4.8.1
-		upgrade=1	from_commit=ca1c1238a8d8f1dc89c092216491d3ec9464382c
+		#upgrade=1	from_commit=ca1c1238a8d8f1dc89c092216491d3ec9464382c
 		backup_restore=1
 		multi_instance=1
 		change_url=1
