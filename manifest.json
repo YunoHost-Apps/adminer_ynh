@@ -3,11 +3,11 @@
     "id": "adminer",
     "packaging_format": 1,
     "description": {
-        "en": "Database management in a single PHP file",
-        "fr": "Gestionnaire de base de données en un seul fichier PHP"
+        "en": "Database management tool",
+        "fr": "Gestionnaire de base de données"
     },
 
-    "version": "4.8.1~ynh2",
+    "version": "4.8.1~ynh3",
     "url": "https://www.adminer.org/",
     "upstream": {
         "license": "Apache-2.0",
