@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Adminer for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Working status](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)  
 [![Install Adminer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,13 +17,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin.
 
-**Shipped version:** 4.8.1~ynh3
+**Shipped version:** 4.8.1~ynh4
 
 **Demo:** https://demo.adminer.org/adminer.php?username=
 
 ## Screenshots
 
-![](./doc/screenshots/screenshot.png)
+![Screenshot of Adminer](./doc/screenshots/screenshot.png)
 
 ## Disclaimers / important information
 
@@ -35,20 +35,21 @@ If you have problems with drivers see here: https://www.adminer.org/en/drivers.
 
 ## Documentation and resources
 
-* Official app website: https://www.adminer.org/
-* Upstream app code repository: https://github.com/vrana/adminer/
-* YunoHost documentation for this app: https://yunohost.org/app_adminer
-* Report a bug: https://github.com/YunoHost-Apps/adminer_ynh/issues
+* Official app website: <https://www.adminer.org/>
+* Upstream app code repository: <https://github.com/vrana/adminer/>
+* YunoHost documentation for this app: <https://yunohost.org/app_adminer>
+* Report a bug: <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/adminer_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/adminer_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade adminer -u https://github.com/YunoHost-Apps/adminer_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
