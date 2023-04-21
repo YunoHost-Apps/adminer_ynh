@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Adminer pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+
 [![Installer Adminer avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Adminer rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Adminer rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Adminer (anciennement phpMinAdmin) est un outil de gestion de base de données complet écrit en PHP. À l'inverse de phpMyAdmin, il se compose d'un seul fichier prêt à être déployé sur le serveur cible. Adminer est disponible pour MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB et autres via un plugin. 
 
@@ -21,9 +22,9 @@ Adminer (anciennement phpMinAdmin) est un outil de gestion de base de données c
 
 **Démo :** https://demo.adminer.org/adminer.php?username=
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Adminer](./doc/screenshots/screenshot.png)
+![Capture d’écran de Adminer](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -35,8 +36,8 @@ Si vous rencontrez des problèmes avec les pilotes, consultez : https://www.admi
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://www.adminer.org/>
-* Dépôt de code officiel de l'app : <https://github.com/vrana/adminer/>
+* Site officiel de l’app : <https://www.adminer.org/>
+* Dépôt de code officiel de l’app : <https://github.com/vrana/adminer/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_adminer>
 * Signaler un bug : <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 
@@ -52,4 +53,4 @@ ou
 sudo yunohost app upgrade adminer -u https://github.com/YunoHost-Apps/adminer_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
