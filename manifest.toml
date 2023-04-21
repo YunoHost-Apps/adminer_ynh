@@ -1,0 +1,48 @@
+packaging_format = 2
+
+id = "adminer"
+name = "Adminer"
+description.en = "Database management tool"
+description.fr = "Gestionnaire de base de données"
+
+version = "4.8.1~ynh5"
+
+maintainers = ["Anmol Sharma"]
+
+[upstream]
+license = "Apache-2.0"
+website = "https://www.adminer.org/"
+demo = "https://demo.adminer.org/adminer.php?username="
+code = "https://github.com/vrana/adminer/"
+
+[integration]
+yunohost = ">= 11.1.17"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "100M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/adminer"
+
+    [install.admin]
+    type = "user"
+
+[resources]
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.0-mysql php8.0-sqlite3 php8.0-pgsql"
