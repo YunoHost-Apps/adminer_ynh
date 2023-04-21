@@ -1,0 +1,15 @@
+test_format = 1.0
+
+[default]
+
+    # -------------------------------
+    # Default args to use for install
+    # -------------------------------
+
+    args.admin = "john"
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------
+
+    test_upgrade_from.ca1c1238a8d8f1dc89c092216491d3ec9464382c.name = "Upgrade from 4.8.1"
