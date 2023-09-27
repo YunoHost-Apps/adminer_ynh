@@ -49,4 +49,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-mysql php8.2-sqlite3 php8.2-pgsql"
+    packages = "php8.2-mysql, php8.2-sqlite3, php8.2-pgsql"
