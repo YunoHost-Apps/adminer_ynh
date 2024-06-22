@@ -26,7 +26,7 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ![Captura de Adminer](./doc/screenshots/screenshot.png)
 
-## :red_circle: funcionalidades no deseadas
+## :red_circle: Características no deseables
 
 - **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
 
