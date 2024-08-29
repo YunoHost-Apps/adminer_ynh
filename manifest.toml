@@ -50,7 +50,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://github.com/adminerevo/adminerevo/releases/download/v4.8.4/adminer-4.8.4.php"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    sha256 = "e9a9bc2cc2ac46d6d92f008de9379d2b21a3764a5f8956ed68456e190814b149"
     rename= "index.php"
     in_subdir = false
 
