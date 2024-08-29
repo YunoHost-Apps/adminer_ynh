@@ -14,15 +14,15 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=11
 
-# Download, check integrity, uncompress and patch the source from app.src
-mkdir -p $install_dir
+#=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression --message="Setting up source files..." --weight=1
 
-#copy files from with_root_access folder to the install_dir
-cp -a ../sources/with_root_access/. $install_dir
+# Download, check integrity, uncompress and patch the source from manifest.toml
+ynh_setup_source --dest_dir="$install_dir"
 
-chmod 750 "$install_dir"
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # PHP-FPM CONFIGURATION
