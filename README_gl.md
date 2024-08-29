@@ -32,8 +32,8 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ## Documentación e recursos
 
-- Web oficial da app: <https://www.adminer.org/>
-- Repositorio de orixe do código: <https://github.com/vrana/adminer/>
+- Web oficial da app: <https://docs.adminerevo.org/>
+- Repositorio de orixe do código: <https://github.com/adminerevo/adminerevo>
 - Tenda YunoHost: <https://apps.yunohost.org/app/adminer>
 - Informar dun problema: <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 
