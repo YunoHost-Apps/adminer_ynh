@@ -32,8 +32,8 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://www.adminer.org/>
-- Depot kode aplikasi hulu: <https://github.com/vrana/adminer/>
+- Website aplikasi resmi: <https://docs.adminerevo.org/>
+- Depot kode aplikasi hulu: <https://github.com/adminerevo/adminerevo>
 - Gudang YunoHost: <https://apps.yunohost.org/app/adminer>
 - Laporkan bug: <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 
