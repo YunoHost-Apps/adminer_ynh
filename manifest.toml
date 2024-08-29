@@ -11,9 +11,9 @@ maintainers = []
 
 [upstream]
 license = "Apache-2.0"
-website = "https://www.adminer.org/"
+website = "https://docs.adminerevo.org/"
 demo = "https://demo.adminer.org/adminer.php?username="
-code = "https://github.com/vrana/adminer/"
+code = "https://github.com/adminerevo/adminerevo"
 
 [integration]
 yunohost = ">= 11.2.27"
@@ -50,6 +50,8 @@ ram.runtime = "50M"
     [resources.sources.main]
     url = "https://github.com/adminerevo/adminerevo/releases/download/v4.8.4/adminer-4.8.4.php"
     sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    rename= "index.php"
+    in_subdir = false
 
     [resources.system_user]
 
