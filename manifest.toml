@@ -16,7 +16,7 @@ demo = "https://demo.adminer.org/adminer.php?username="
 code = "https://github.com/adminerevo/adminerevo"
 
 [integration]
-yunohost = ">= 11.2.27"
+yunohost = ">= 11.2.29"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
