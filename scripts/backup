@@ -6,8 +6,6 @@ source /usr/share/yunohost/helpers
 ynh_print_info "Declaring files to be backed up..."
 
 #=================================================
-# STANDARD BACKUP STEPS
-#=================================================
 # BACKUP THE APP MAIN DIR
 #=================================================
 

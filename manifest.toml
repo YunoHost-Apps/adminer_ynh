@@ -13,7 +13,8 @@ maintainers = []
 license = "Apache-2.0"
 website = "https://docs.adminerevo.org/"
 demo = "https://demo.adminer.org/adminer.php?username="
-code = "https://github.com/adminerevo/adminerevo"
+admindoc = "https://docs.adminerevo.org/"
+code = "https://github.com/vrana/adminer"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -22,7 +23,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
