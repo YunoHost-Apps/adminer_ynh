@@ -5,15 +5,16 @@ name = "Adminer"
 description.en = "Database management tool"
 description.fr = "Gestionnaire de base de données"
 
-version = "4.8.4~ynh1"
+version = "4.17.1~ynh1"
 
 maintainers = []
 
 [upstream]
 license = "Apache-2.0"
-website = "https://docs.adminerevo.org/"
+website = "https://www.adminer.org/"
 demo = "https://demo.adminer.org/adminer.php?username="
-code = "https://github.com/adminerevo/adminerevo"
+admindoc = "https://docs.adminerevo.org/"
+code = "https://github.com/vrana/adminer"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -22,7 +23,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/adminerevo/adminerevo/releases/download/v4.8.4/adminer-4.8.4.php"
-    sha256 = "e9a9bc2cc2ac46d6d92f008de9379d2b21a3764a5f8956ed68456e190814b149"
+    url = "https://github.com/vrana/adminer/releases/download/v4.17.1/adminer-4.17.1.php"
+    sha256 = "58956bc021b6b260b1a2ef32d03517f6f88f5ad4aa03ff2d0092c6f509e26d0a"
     rename= "index.php"
     in_subdir = false
 
@@ -63,4 +63,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-mysql, php8.3-sqlite3, php8.3-pgsql"
+    packages = "php8.4-mysql, php8.4-sqlite3, php8.4-pgsql"
