@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Adminer pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/adminer.svg)](https://ci-apps.yunohost.org/ci/apps/adminer/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/adminer)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Installer Adminer avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
@@ -18,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Adminer (anciennement phpMinAdmin) est un outil de gestion de base de données complet écrit en PHP. À l'inverse de phpMyAdmin, il se compose d'un seul fichier prêt à être déployé sur le serveur cible. Adminer est disponible pour MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB et autres via un plugin. 
 
-**Version incluse :** 4.8.4~ynh1
+**Version incluse :** 4.17.1~ynh1
 
 **Démo :** <https://demo.adminer.org/adminer.php?username=>
 

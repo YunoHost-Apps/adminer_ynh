@@ -5,7 +5,9 @@
 
 # Adminer для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/adminer.svg)](https://ci-apps.yunohost.org/ci/apps/adminer/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Состояние работы](https://apps.yunohost.org/badge/state/adminer)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Установите Adminer с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
@@ -18,7 +20,7 @@
 
 Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin.
 
-**Поставляемая версия:** 4.8.4~ynh1
+**Поставляемая версия:** 4.17.1~ynh1
 
 **Демо-версия:** <https://demo.adminer.org/adminer.php?username=>
 
