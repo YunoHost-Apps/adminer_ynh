@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Adminer for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Working status](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Working status](https://apps.yunohost.org/badge/state/adminer)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Install Adminer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 

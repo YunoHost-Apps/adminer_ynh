@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Adminer para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Estado funcional](https://apps.yunohost.org/badge/state/adminer)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Instalar Adminer con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
@@ -39,7 +41,7 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/adminer_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/adminer_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
