@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Adminer
 
-[![集成程度](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![工作状态](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![工作状态](https://apps.yunohost.org/badge/state/adminer)
+![维护状态](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![使用 YunoHost 安装 Adminer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
@@ -18,7 +20,7 @@
 
 Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin.
 
-**分发版本：** 4.8.1~ynh7
+**分发版本：** 4.17.1~ynh1
 
 **演示：** <https://demo.adminer.org/adminer.php?username=>
 
@@ -32,8 +34,9 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ## 文档与资源
 
-- 官方应用网站： <https://www.adminer.org/>
-- 上游应用代码库： <https://github.com/vrana/adminer/>
+- 官方应用网站： <https://docs.adminerevo.org/>
+- 官方管理文档： <https://docs.adminerevo.org/>
+- 上游应用代码库： <https://github.com/vrana/adminer>
 - YunoHost 商店： <https://apps.yunohost.org/app/adminer>
 - 报告 bug： <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 

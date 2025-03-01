@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Adminer YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/adminer)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Instalatu Adminer YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
@@ -18,7 +20,7 @@ EZ editatu eskuz.
 
 Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin.
 
-**Paketatutako bertsioa:** 4.8.1~ynh7
+**Paketatutako bertsioa:** 4.17.1~ynh1
 
 **Demoa:** <https://demo.adminer.org/adminer.php?username=>
 
@@ -32,8 +34,9 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://www.adminer.org/>
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/vrana/adminer/>
+- Aplikazioaren webgune ofiziala: <https://docs.adminerevo.org/>
+- Administratzaileen dokumentazio ofiziala: <https://docs.adminerevo.org/>
+- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/vrana/adminer>
 - YunoHost Denda: <https://apps.yunohost.org/app/adminer>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/adminer_ynh/issues>
 
