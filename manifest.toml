@@ -5,7 +5,7 @@ name = "Adminer"
 description.en = "Database management tool"
 description.fr = "Gestionnaire de base de données"
 
-version = "4.8.4~ynh1"
+version = "4.17.1~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,7 @@ demo = "https://demo.adminer.org/adminer.php?username="
 code = "https://github.com/adminerevo/adminerevo"
 
 [integration]
-yunohost = ">= 11.2.27"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/adminerevo/adminerevo/releases/download/v4.8.4/adminer-4.8.4.php"
-    sha256 = "e9a9bc2cc2ac46d6d92f008de9379d2b21a3764a5f8956ed68456e190814b149"
+    url = "https://github.com/vrana/adminer/releases/download/v4.17.1/adminer-4.17.1.php"
+    sha256 = "58956bc021b6b260b1a2ef32d03517f6f88f5ad4aa03ff2d0092c6f509e26d0a"
     rename= "index.php"
     in_subdir = false
 
