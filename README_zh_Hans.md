@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Adminer
 
-[![集成程度](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![工作状态](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![工作状态](https://apps.yunohost.org/badge/state/adminer)
+![维护状态](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![使用 YunoHost 安装 Adminer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 

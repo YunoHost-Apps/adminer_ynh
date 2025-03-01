@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Adminer YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/adminer.svg)](https://dash.yunohost.org/appci/app/adminer) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/adminer.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/adminer.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/adminer)](https://ci-apps.yunohost.org/ci/apps/adminer/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/adminer)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/adminer)
 
 [![Instalatu Adminer YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=adminer)
 
