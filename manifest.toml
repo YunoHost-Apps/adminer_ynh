@@ -13,7 +13,7 @@ maintainers = []
 license = "Apache-2.0"
 website = "https://docs.adminerevo.org/"
 demo = "https://demo.adminer.org/adminer.php?username="
-admindoc = "https://docs.adminerevo.org/"
+website = "https://www.adminer.org/"
 code = "https://github.com/vrana/adminer"
 fund = "https://www.patreon.com/jakubvrana"
 
