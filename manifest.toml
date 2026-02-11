@@ -50,7 +50,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://github.com/vrana/adminer/releases/download/v5.4.2/adminer-5.4.2.php"
-    sha256 = 5b761efe7049bf586119256324fd417b49e5bb9243b40d9734fe86655e4402fd"
+    sha256 = "5b761efe7049bf586119256324fd417b49e5bb9243b40d9734fe86655e4402fd"
     rename= "index.php"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
