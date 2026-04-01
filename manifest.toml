@@ -54,7 +54,7 @@ ram.runtime = "50M"
     rename= "index.php"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
-    autoupdate.version_regex="^adminer-[0-9]+(\\.[0-9]+)+\\.php$"
+    autoupdate.asset = "^adminer-(\\d+\\.\\d+\\.\\d+)\\.php$"
 
     [resources.system_user]
 
