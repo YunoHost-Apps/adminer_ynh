@@ -5,7 +5,7 @@ name = "Adminer"
 description.en = "Database management tool"
 description.fr = "Gestionnaire de base de données"
 
-version = "5.4.2~ynh1"
+version = "5.4.3~ynh1"
 
 maintainers = []
 
@@ -17,7 +17,7 @@ code = "https://github.com/vrana/adminer"
 fund = "https://www.patreon.com/jakubvrana"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -49,12 +49,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/vrana/adminer/releases/download/v5.4.2/adminer-5.4.2.php"
-    sha256 = "5b761efe7049bf586119256324fd417b49e5bb9243b40d9734fe86655e4402fd"
+    url = "https://github.com/vrana/adminer/releases/download/v5.4.3/adminer-5.4.3.php"
+    sha256 = "01b7c01b0c736a31c98dda87e9fdcefba56efd531ff212c316b0be2b65002031"
     rename= "index.php"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
-    autoupdate.version_regex="^adminer-[0-9]+(\\.[0-9]+)+\\.php$"
+    autoupdate.asset = "^adminer-(\\d+\\.\\d+\\.\\d+)\\.php$"
 
     [resources.system_user]
 
