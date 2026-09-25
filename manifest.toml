@@ -5,7 +5,7 @@ name = "Adminer"
 description.en = "Database management tool"
 description.fr = "Gestionnaire de base de données"
 
-version = "6.0.2~ynh1"
+version = "6.1.1~ynh1"
 
 maintainers = []
 
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/vrana/adminer/releases/download/v6.0.2/adminer-6.0.2.php"
-    sha256 = "2d8d813523b84df7bcdfcba341845c740060c0c7974d1a1fdd676b98539847fc"
+    url = "https://github.com/vrana/adminer/releases/download/v6.1.1/adminer-6.1.1.php"
+    sha256 = "49c4d400994ef74bbb1b1b4d06c05445c1ba49ba3766b9092dce157750e09303"
     rename= "index.php"
     in_subdir = false
     autoupdate.strategy = "latest_github_release"
